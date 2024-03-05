@@ -1,0 +1,172 @@
+.allDown{
+    
+    
+    .ImageB{
+        font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        white-space: pre-line;
+        background-color:  #1d011d;
+        display: flex;
+        border-radius: 10px 10px 0 0;
+        padding: 5px;
+        gap: 5px;
+        &_red{
+            margin-left: 3px;
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius: 50%;
+        }
+        &_yellow{
+            width: 10px;
+            height: 10px;
+            background-color: yellow;
+            border-radius: 50%;
+        }
+        &_green{
+            width: 10px;
+            height: 10px;
+            background-color: green;
+            border-radius: 50%;
+        }
+        &_thumbsUp{
+            background-color: white;
+            border-radius: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            position: absolute;
+            left: 23%;
+            bottom: 33%;
+            @media all and (min-width:900px){
+                left: 63%;
+                bottom: 73%;
+            }
+        }
+    }
+    .todo{
+        display: flex;
+        background-color: white;
+    &_ColumA{
+        font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        white-space: pre-line;
+        background-color:  #400d40;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: small;
+        border-radius: 0 0 0 10px;
+        &-w{
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            padding-left: 10px;
+        }
+        &-n{
+            padding: 20px 30px 0 10px;
+            
+        }
+        &-a{
+            background-color: rgba(16, 106, 215, 0.893);
+            padding: 3px 3px 3px 5px;
+            margin-top: 5px;
+            font-size: small;
+            white-space: nowrap;
+        }
+        &-party{
+            background-color: white;
+            border-radius: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            position: absolute;
+            color: black;
+            left: -0.001px;
+            bottom: 10px;
+            @media all and (min-width:900px){
+                left: 53%;
+                bottom: 43%;
+            }
+        }
+    }
+    &_ColumB{
+        font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        white-space: pre-line;
+        display: flex;
+        flex-direction: column;
+        &-Bomb{
+            background-color: white;
+            border-radius: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            position: absolute;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+            left: 90%;
+            transform: translate(10%);
+            bottom: 5%;
+            @media all and (min-width:900px){
+                bottom: 48%;
+            }
+        }
+        &-pa{
+            display: flex; 
+            flex-direction: row;
+            padding-top: 10px;
+            padding-left: 25px;
+            padding-bottom: 10px;
+            justify-content: space-between;
+            font-weight: 500;
+            .imgS{
+                height: 20px;
+            }
+        }
+        &-pb{
+            display: flex;
+            padding-left: 25px;
+            align-items: center;
+            .imgM{
+               width: 50px;
+               height: 50px;
+            }
+            h2{
+                font-size: small;
+            }
+            p{
+                font-size: small;
+            }
+        }
+        &-pc{
+            display: flex;
+            padding-left: 25px;
+            align-items: center;
+            .imgMm{
+                height: 50px;
+            }
+            .textM{
+                font-size: small;
+            }
+        }
+        .imgD{
+            width: 200px;
+            left: 50px;
+            transform: translateX(50px);
+            border: 1px solid rgb(214, 202, 202);
+            border-radius: 5px;
+        } 
+        .Eyes{
+            background-color: white;
+            border-radius: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            position: absolute;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+            top: 110%;
+            left: 80%;
+            @media all and (min-width:900px){
+                top: 69%;
+                left: 86%;
+            }
+        } 
+        &-space{
+            border-radius: 0 0 10px 0;
+        }  
+         }
+  }
+}

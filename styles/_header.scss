@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    &_logo{
+        width: 150px;
+        height: 50px;
+    }
+    &_menu{
+        display: none;
+    }
+    &_burger{
+        width: 40px;
+    }
+}

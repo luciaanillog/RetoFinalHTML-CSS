@@ -1,0 +1,25 @@
+.allUp{
+    &_TextB{
+        font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        white-space: pre-line;
+        &-title{
+            font-size: xx-large;
+        }
+        &-text{
+            font-size: x-small;
+        }
+        &-button{
+            text-decoration: none;
+            color: white;
+            background-color: #400d40;
+            padding: 15px;
+            font-size: x-small;
+            text-transform: uppercase;
+            font-weight: 400;
+            letter-spacing: 3px;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+        }
+    }
+}

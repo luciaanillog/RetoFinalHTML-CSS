@@ -1,0 +1,7 @@
+.center{
+    @media all and (min-width: 900px){
+    display: flex; 
+    justify-content: space-between;
+    padding: 60px;
+}
+}
